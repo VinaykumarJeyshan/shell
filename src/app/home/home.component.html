@@ -1,0 +1,11 @@
+<div style="border: 1px solid red;">
+
+<p>home works!</p>
+<button (click)="sendData()"> Send data to remote mfe</button>
+<div *ngFor="let p of options">
+    <div class="col-md-4">
+      <app-load-fragments [options]="p"></app-load-fragments>
+    </div>
+  </div>
+</div>
+   

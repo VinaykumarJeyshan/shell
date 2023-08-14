@@ -1,0 +1,38 @@
+{
+  "mfe1": {
+    "isActive": true,
+    "remoteEntry": "http://localhost:4201/remoteEntry.js",
+    "exposedModule": "./RemoteMfeModule",
+    "displayName": "RemoteMfe",
+    "routePath": "mfe",
+    "ngModuleName": "RemoteMfeModule",
+    "viaRoute": true,
+    "withInPage": false
+  },
+  "mfe1-fragment": {
+    "isActive": true,
+    "remoteEntry": "http://localhost:4201/remoteEntry.js",
+    "exposedModule": "./MfeFragmentComponent",
+    "componentName": "MfeFragmentComponent",
+    "viaRoute": false,
+    "withInPage": true
+  },
+  "mfe2": {
+    "isActive": true,
+    "remoteEntry": "http://localhost:4202/remoteEntry.js",
+    "exposedModule": "./RemoteMfeModule",
+    "displayName": "RemoteMfeModule",
+    "routePath": "mfe2",
+    "ngModuleName": "RemoteMfeModule",
+    "viaRoute": true,
+    "withInPage": false
+  },
+  "mfe2-fragment": {
+    "isActive": true,
+    "remoteEntry": "http://localhost:4202/remoteEntry.js",
+    "exposedModule": "./MfeFragmentComponent",
+    "componentName": "MfeFragmentComponent",
+    "viaRoute": false,
+    "withInPage": true
+  }
+}
